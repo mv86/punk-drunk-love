@@ -10,7 +10,7 @@ class App extends Component {
           <h1>You like Punk Ipa???</h1>
         </div>
         <div className="App-info">
-          <h1>You'll love this site!</h1>
+          <h1 id="lower-h1">You'll love this site!</h1>
           <MainPage/>
         </div>
       </div>
