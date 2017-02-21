@@ -1,16 +1,37 @@
 .App {
   text-align: center;
+  min-width: 400px;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 60px;
   padding: 20px;
   color: white;
 }
 
 .App-intro {
   font-size: large;
+}
+
+.pdl-name {
+	text-decoration-color: red;
+	text-shadow: 3px 0px 1px black;
+}
+
+#nav-ul {
+  background-color: #222;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#nav-ul > li {
+	margin: 20px;
+	color: white;
+	flex-basis: 30%;
 }
 
 #lower-h1 {
@@ -23,6 +44,7 @@
 
 #app-description {
 	flex-basis: 30%;
+	text-align: left;
 }
 
 #random-beer-div {
