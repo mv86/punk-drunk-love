@@ -14,11 +14,6 @@
   font-size: large;
 }
 
-.pdl-name {
-	text-decoration-color: red;
-	text-shadow: 3px 0px 1px black;
-}
-
 #nav-ul {
   background-color: #222;
 	list-style-type: none;
@@ -34,21 +29,24 @@
 	flex-basis: 30%;
 }
 
+.App-info {
+	background-image: linear-gradient(white, #1a1a1a);
+}
+
 #lower-h1 {
+	margin-top: 0;
+	padding-top: 28px;
   margin-bottom: 55px;
 }
 
 #main-page-div {
+	height: 400px;
 	flex-direction: row;
-}
 
-#app-description {
-	flex-basis: 30%;
-	text-align: left;
 }
 
 #random-beer-div {
-  flex-basis: 60%;
+  flex-basis: 90%;
 }
 
 @media (min-width: 650px) {

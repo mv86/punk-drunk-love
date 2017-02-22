@@ -1,5 +1,4 @@
-import React from 'react';
-import {Component} from 'react';
+import React, {Component} from 'react';
 import Beer from './Beer.js';
 
 class RandomBeer extends Component {
@@ -25,7 +24,6 @@ class RandomBeer extends Component {
       }
 
       res.json().then(data => {
-        console.log(data);
         this.setState({
           name: data[0].name,
           description: data[0].description,
