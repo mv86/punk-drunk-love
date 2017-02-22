@@ -42,10 +42,12 @@ class RandomBeer extends Component {
    });
   }
 
-  componentDidMount() {
-    console.log('mounting')
+  componentWillMount() {
     this.fetchRandomBeer()
-    setInterval(this.fetchRandomBeer, 15000)
+  }
+
+  componentDidMount() {
+    setInterval(this.fetchRandomBeer, 10000)
   }
 
   render() {
